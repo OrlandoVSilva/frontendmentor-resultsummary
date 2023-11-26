@@ -1,0 +1,184 @@
+@media screen and (max-width: 375px) {
+    #root{
+        /*border: 3px solid blue;*/
+    }
+    #container{
+        /*border: 2px solid red;*/
+    }
+    /* ------ */
+
+    #result_card{
+        /*border: 3px solid orange;*/
+        width: 100%;
+        height: 100%;
+        transform: translate(0%, 0%);
+        border-radius: 0px;
+        flex-direction: column;
+    }
+    .innerCard{
+        width: 100%;
+        padding: 0px;
+    }
+    .innerCard:nth-child(1){  
+        height: 50%;
+        border-radius: 0 0 30px 30px;
+        overflow: hidden;
+    }
+    .innerCard:nth-child(2){
+        height: 60%;
+    }
+    .resultValueContent{
+        /*border: 1px solid red;*/
+    }
+    .innerCard .resultValueContent:nth-child(1) h1{
+        font-weight: 500;
+        font-size: .9em;
+    }
+    .innerCard .resultValueContent:nth-child(3) h1{
+        font-weight: 700;
+        font-size: 1.1em;
+    }
+    .resultValueContent:nth-child(1){
+        height: 20%;
+    }
+    .resultValueContent:nth-child(2){
+        height: 45%;
+    }
+    .resultValueContent:nth-child(3){
+        height: 10%;
+    }
+    .resultValueContent:nth-child(4){
+        height: 25%;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .numericScore{
+        width: 110px;
+        height: 110px;
+    }
+    #numericScore_top p{
+        font-size: 2.5em;
+        font-weight: 800;
+    }
+    #numericScore_bottom p{
+        font-size: .7em;
+        font-weight: 500;
+    }
+    .innerCard{
+        /*border: 1px solid green;*/
+        padding: 0px 20px 0px 20px;
+    }
+    .summaryCategory{
+        /*border: 1px solid purple;*/
+        height: 13%;
+    }
+    .summaryCategory h2{
+        color: black;
+        font-size: 1em;
+        font-weight: 700;
+    }
+    .summaryCategory:nth-child(2), .summaryCategory:nth-child(3), .summaryCategory:nth-child(4), .summaryCategory:nth-child(5){
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .summaryCategory:nth-child(6){
+        height: 15%;
+    }
+}
+
+@media screen and (min-width: 376px) and (max-width: 520px){
+    #root{
+        /*border: 3px solid blue;*/
+    }
+    #container{
+        /*border: 2px solid red;*/
+    }
+    /* ------ */
+
+    #result_card{
+        /*border: 3px solid orange;*/
+        width: 100%;
+        height: 100%;
+        transform: translate(0%, 0%);
+        border-radius: 0px;
+        flex-direction: column;
+    }
+    .innerCard{
+        width: 100%;
+        padding: 0px;
+    }
+    .innerCard:nth-child(1){  
+        height: 50%;
+        border-radius: 0 0 30px 30px;
+        overflow: hidden;
+    }
+    .innerCard:nth-child(2){
+        height: 60%;
+    }
+    .resultValueContent{
+        /*border: 1px solid red;*/
+    }
+    .innerCard .resultValueContent:nth-child(1) h1{
+        font-weight: 500;
+        font-size: .9em;
+    }
+    .innerCard .resultValueContent:nth-child(3) h1{
+        font-weight: 700;
+        font-size: 1.1em;
+    }
+    .resultValueContent:nth-child(1){
+        height: 20%;
+    }
+    .resultValueContent:nth-child(2){
+        height: 45%;
+    }
+    .resultValueContent:nth-child(3){
+        height: 10%;
+    }
+    .resultValueContent:nth-child(4){
+        height: 25%;
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+    .numericScore{
+        width: 110px;
+        height: 110px;
+    }
+    #numericScore_top p{
+        font-size: 2.5em;
+        font-weight: 800;
+    }
+    #numericScore_bottom p{
+        font-size: .7em;
+        font-weight: 500;
+    }
+    .innerCard{
+        /*border: 1px solid green;*/
+        padding: 0px 20px 0px 20px;
+    }
+    .summaryCategory{
+        /*border: 1px solid purple;*/
+        height: 13%;
+    }
+    .summaryCategory h2{
+        color: black;
+        font-size: 1em;
+        font-weight: 700;
+    }
+    .summaryCategory:nth-child(2), .summaryCategory:nth-child(3), .summaryCategory:nth-child(4), .summaryCategory:nth-child(5){
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .summaryCategory:nth-child(6){
+        height: 15%;
+    }
+}
+
+@media screen and (min-width: 521px) and (max-width: 999px){
+    #result_card{
+        /*border: 3px solid orange;*/
+        width: 90%;
+        height: 70%;
+        transform: translate(5%, 25%);
+    }
+}
